@@ -90,244 +90,39 @@
 
 
     <script>
-    // slider
-    $(".carousel").swipe({
-        swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
-            if (direction == 'left') $(this).carousel('next');
-            if (direction == 'right') $(this).carousel('prev');
-        },
-        allowPageScroll: "vertical"
-    });
-
-
-    // OUR COLLECTIONS SLIDE
-    $('.CollectionsSlide').owlCarousel({
-        loop: true,
-        autoplay: true,
-        smartSpeed: 500,
-        autoplayTimeout: 3500,
-        autoplayHoverPause: true,
-        responsiveClass: true,
-        nav: false,
-        dots: false,
-        items: 2,
-        margin: 5,
-        responsive: {
-            576: {
-                items: 2.5,
-                margin: 10,
-            },
-            768: {
-                items: 3,
-                margin: 15,
-            },
-            1200: {
-                items: 4,
-                margin: 25,
-            }
-        }
-    });
-
     // PRODUCTS SLIDE
-    $('.ProSlide').owlCarousel({
-        loop: true,
-        autoplay: true,
-        smartSpeed: 500,
-        autoplayTimeout: 3500,
-        autoplayHoverPause: true,
-        responsiveClass: true,
-        nav: false,
-        dots: false,
-        items: 2,
-        margin: 5,
-        responsive: {
-            576: {
-                items: 2.5,
-                margin: 10,
-            },
-            768: {
-                items: 3,
-                margin: 15,
-            },
-            1200: {
-                items: 4,
-                margin: 30,
-                loop: function() {
-                    if ($(this).find('.owl-item').length > 3) {
-                        return true;
-                    }
-                    return false;
-                }
-            }
-        }
-    });
-
-    // PRODUCTS SLIDE
-    $('.OurFeaturesSlide').owlCarousel({
-        loop: true,
-        autoplay: true,
-        smartSpeed: 500,
-        autoplayTimeout: 3500,
-        autoplayHoverPause: true,
-        responsiveClass: true,
-        nav: false,
-        dots: false,
-        items: 2,
-        margin: 0,
-        responsive: {
-            576: {
-                items: 3,
-            },
-            768: {
-                items: 3,
-            },
-            992: {
-                items: 4,
-                loop: false,
-            },
-            1200: {
-                items: 4,
-                margin: 30,
-                loop: false,
-            }
-        }
-    });
-    // NEW IN STORE
-    var NewInStoreSlide = $('.NewInStoreSlide');
-    $('.NewInStoreSlideNav.OwlNext').click(function() {
-        NewInStoreSlide.trigger('next.owl.carousel');
-    });
-
-    $('.NewInStoreSlideNav.OwlPrev').click(function() {
-        NewInStoreSlide.trigger('prev.owl.carousel');
-    });
-
-    // SPECIAL OFFERS
-    var SpecialOffersSlide = $('.SpecialOffersSlide');
-    $('.SpecialOffersSlideNav.OwlNext').click(function() {
-        SpecialOffersSlide.trigger('next.owl.carousel');
-    });
-
-    $('.SpecialOffersSlideNav.OwlPrev').click(function() {
-        SpecialOffersSlide.trigger('prev.owl.carousel');
-    });
-
-    // DANCE COSTUME
-    var DanceCostumesSlide = $('.DanceCostumesSlide');
-    $('.DanceCostumesSlideNav.OwlNext').click(function() {
-        DanceCostumesSlide.trigger('next.owl.carousel');
-    });
-
-    $('.DanceCostumesSlideNav.OwlPrev').click(function() {
-        DanceCostumesSlide.trigger('prev.owl.carousel');
-    });
-
-    // PRACTISE SAREES
-    var PracticeSarees = $('.PracticeSarees');
-    $('.PracticeSareesNav.OwlNext').click(function() {
-        PracticeSarees.trigger('next.owl.carousel');
-    });
-
-    $('.PracticeSareesNav.OwlPrev').click(function() {
-        PracticeSarees.trigger('prev.owl.carousel');
-    });
-
-    // TESTIMONIAL SLIDE
-    $('.TestiSlide').owlCarousel({
-        loop: true,
-        autoplay: true,
-        smartSpeed: 500,
-        autoplayTimeout: 3500,
-        autoplayHoverPause: true,
-        responsiveClass: true,
-        nav: false,
-        dots: false,
-        items: 1,
-        margin: 5,
-        responsive: {
-            576: {
-                items: 2,
-                margin: 10,
-            },
-            768: {
-                items: 2,
-                margin: 15,
-            },
-            992: {
-                items: 3,
-                margin: 30,
-            }
-        }
-    });
-    </script>
-
-    <!-- OUR INSTA FEED -->
-    <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
-    <script type="text/javascript">
-    var loadButton = $('#load-more');
-    var currentCount = 0;
-    var feed = new Instafeed({
-        get: 'intersmartsolution',
-        target: "instafeed",
-        sortBy: "most-recent",
-        limit: 10,
-        redirect_uri: 'https://intersmartsolution.com',
-        resolution: 'low_resolution',
-        accessToken: 'IGQVJVVjlvRHdPQ3RQaTBsbnZAEUjhoaDNCRERqdnQ2WG9GdVVrejdBU1BRaVdrTTlJM1RGSmxfMlJVUVZALUWpvYVd5QjlibElxT3JxWWdSYTlCWW1KQzMtd3NqYkFwems5UG81SUhyY2VNQVU2SlRmVQZDZD',
-        before: function() {
-            currentCount = 0;
-        },
-        filter: function(image) {
-            // put your real limit here
-            var shouldDisplay = (currentCount < 5);
-
-            if (shouldDisplay) {
-                if ((image.type === 'image')) {
-                    currentCount += 1;
-                    //console.log(currentCount);
-                    //return image.type === 'image';
-                } else {
-                    shouldDisplay = false;
-                }
-            }
-
-            return shouldDisplay;
-        },
-        after: function() {
-            $("#instafeed").addClass("owl-carousel");
-            $("#instafeed a").attr("target", "_blank");
-            $('#instafeed').owlCarousel({
-                loop: true,
-                autoplay: true,
-                smartSpeed: 500,
-                autoplayTimeout: 3500,
-                autoplayHoverPause: true,
-                responsiveClass: true,
-                nav: false,
-                dots: false,
-                items: 2,
-                margin: 5,
-                responsive: {
-                    390: {
-                        items: 2,
-                    },
-                    468: {
-                        items: 2,
-                        margin: 10,
-                    },
-                    600: {
-                        items: 3,
-                        margin: 15,
-                    },
-                    992: {
-                        margin: 18,
-                        items: 4,
-                    }
-                }
-            });
-        }
-    });
-    feed.run();
+    // $('.ProSlide').owlCarousel({
+    //     loop: true,
+    //     autoplay: true,
+    //     smartSpeed: 500,
+    //     autoplayTimeout: 3500,
+    //     autoplayHoverPause: true,
+    //     responsiveClass: true,
+    //     nav: false,
+    //     dots: false,
+    //     items: 2,
+    //     margin: 5,
+    //     responsive: {
+    //         576: {
+    //             items: 2.5,
+    //             margin: 10,
+    //         },
+    //         768: {
+    //             items: 3,
+    //             margin: 15,
+    //         },
+    //         1200: {
+    //             items: 4,
+    //             margin: 30,
+    //             loop: function() {
+    //                 if ($(this).find('.owl-item').length > 3) {
+    //                     return true;
+    //                 }
+    //                 return false;
+    //             }
+    //         }
+    //     }
+    // });
     </script>
 
 </div>
