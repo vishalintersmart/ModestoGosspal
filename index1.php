@@ -74,10 +74,6 @@
     </section>
     <!-- MAINSLIDER -->
 
-    <!-- TOUCH_SWIPE -->
-    <script type="text/javascript"
-        src="//cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js">
-    </script>
 
     <!-- GSAP --->
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
