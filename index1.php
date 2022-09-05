@@ -10,67 +10,14 @@
                 <img src="assets/images/MainSlide1.webp" alt="MainSlide1">
                 <div class="container SlideCntnt">
                     <div class="MainTitle">
-                        Your treasure trove of<br>
-                        all things dance
+                        Transform a life today
                     </div>
                     <div class="SubTitle">
-                        Shopping for dance accessories was never this fun!
+                        Give hurting people the help and healing they need to overcome homelessness.
                     </div>
-                    <a href="#!" class="btn hoveranim">
-                        <span>
-                            Shop Now
-                        </span>
-                    </a>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <img src="assets/images/MainSlide1.webp" alt="MainSlide1">
-                <div class="container SlideCntnt">
-                    <div class="MainTitle">
-                        Your treasure trove of<br>
-                        all things dance
-                    </div>
-                    <div class="SubTitle">
-                        Shopping for dance accessories was never this fun!
-                    </div>
-                    <a href="#!" class="btn hoveranim">
-                        <span>
-                            Shop Now
-                        </span>
-                    </a>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <img src="assets/images/MainSlide1.webp" alt="MainSlide1">
-                <div class="container SlideCntnt">
-                    <div class="MainTitle">
-                        Your treasure trove of<br>
-                        all things dance
-                    </div>
-                    <div class="SubTitle">
-                        Shopping for dance accessories was never this fun!
-                    </div>
-                    <a href="#!" class="btn hoveranim">
-                        <span>
-                            Shop Now
-                        </span>
-                    </a>
                 </div>
             </div>
         </div>
-        <ol class="carousel-indicators">
-            <li data-bs-target="#MainSlider" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#MainSlider" data-bs-slide-to="1"></li>
-            <li data-bs-target="#MainSlider" data-bs-slide-to="2"></li>
-        </ol>
-        <!-- <a class="carousel-control-prev" href="#MainSlider" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#MainSlider" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a> -->
     </section>
     <!-- MAINSLIDER -->
 

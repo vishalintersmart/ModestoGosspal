@@ -352,26 +352,24 @@ session_start();
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="ActionSec">
-                                <div class="Itm">
-                                    <a href="#!" class="Podcast">
-                                        <div class="Icon">
-                                            <div class="circle">
-                                                <img src="assets/images/microphone.webp" alt="microphone">
-                                            </div>
-                                        </div>
-                                        Mission Podcast
-                                    </a>
-                                </div>
-                                <div class="Itm">
-                                    <a href="#!" class="btn">
-                                        Donate Now
-                                    </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ActionSec">
+                    <div class="Itm">
+                        <a href="#!" class="Podcast">
+                            <div class="Icon">
+                                <div class="circle">
+                                    <img src="assets/images/microphone.webp" alt="microphone">
                                 </div>
                             </div>
-
-                        </div>
+                            Mission Podcast
+                        </a>
+                    </div>
+                    <div class="Itm">
+                        <a href="#!" class="btn">
+                            Donate Now
+                        </a>
                     </div>
                 </div>
             </div>
