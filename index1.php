@@ -7,7 +7,7 @@
     <section id="MainSlider" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="5000">
-                <img src="assets/images/MainSlide1.webp" alt="MainSlide1">
+                <video src="assets/images/MainVideo.mp4" autoplay muted loop></video>
                 <div class="container SlideCntnt">
                     <div class="MainTitle">
                         Transform a life today
@@ -18,13 +18,200 @@
                 </div>
             </div>
         </div>
+        <div class="BottomPattern"></div>
     </section>
     <!-- MAINSLIDER -->
 
+    <!-- WELCOME SECTION -->
+    <section id="WelcomeSec">
+        <div class="container">
+            <p>
+                Our Goal Is To Provide A Place Of Refuge For Recovery And Restoration <strong>Through The Power And Love
+                    Of
+                    Jesus Christ.</strong>
+            </p>
+        </div>
+    </section>
+    <!-- WELCOME SECTION -->
+
+    <!-- COUNTER SECTION -->
+    <section id="CounterSec" class="jarallax" data-jarallax data-type="scroll">
+        <img class="jarallax-img" src="assets/images/CounterSec.jpg" alt="banner">
+        <div class="TopPattern"></div>
+        <div class="container">
+            <div class="FlxRow">
+                <div class="LftSec">
+                    <div class="Info">
+                        Tonight there will be<br>
+                        <strong>58,000 People</strong> experiencing
+                        homelessness in Los Angeles.
+                    </div>
+                </div>
+                <div class="RitSec">
+                    <ul>
+                        <li>
+                            <div class="Icon">
+                                <svg id="Meals" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 307.2 409.6">
+                                    <path
+                                        d="M153.6,136.5C153.6,61.1,119.2,0,76.8,0C34.4,0,0,61.1,0,136.5c0,32.8,20.7,60.6,49.6,71.6l-7,167.3
+                                                c0,18.9,15.3,34.1,34.1,34.1s34.1-15.3,34.1-34.1l-7-167.3C132.9,197.2,153.6,169.3,153.6,136.5z" />
+                                    <path d="M307.2,123.7L302.9,0h-21.3l-4.3,123.7h-17.1L256,0h-25.6l-4.3,123.7h-17.1L204.8,0h-21.3l-4.3,123.7
+                                                c0,26,15.6,48.3,37.9,58.3l-8.1,193.4c0,18.9,15.3,34.1,34.1,34.1c18.9,0,34.1-15.3,34.1-34.1l-8.1-193.4
+                                                C291.6,172.1,307.2,149.8,307.2,123.7z" />
+                                </svg>
+                            </div>
+                            <div class="CWrapr">
+                                <div class="count">
+                                    <div class="value" data-count="131.5">0</div>
+                                    <div class="k">K</div>
+                                    <div class="smbl">+</div>
+                                </div>
+                                <div class="Txt">
+                                    Meals Served Annually
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="Icon">
+                                <svg id="Men" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 209.6 512">
+                                    <path
+                                        d="M165.1,124.9H44.5c-22.6,0-40.9,18.3-40.9,40.9v148.7c0,8,6.5,14.4,14.4,14.4c8,0,14.4-6.5,14.4-14.4V192.7
+                                            c0-4.4,3.6-8,8-8s8,3.6,8,8v291.5c0.5,13.3,11.7,23.8,25,23.3c12.7-0.4,22.9-10.6,23.3-23.3V317.8c0-4.4,3.6-8,8-8s8,3.6,8,8v166.5
+                                            c0.5,13.3,11.7,23.8,25,23.3c12.7-0.4,22.9-10.6,23.3-23.3V192.7c0-4.4,3.6-8,8-8s8,3.6,8,8v121.8c0,8,6.5,14.4,14.4,14.4
+                                            c8,0,14.4-6.5,14.4-14.4V165.8C206,143.2,187.7,124.9,165.1,124.9L165.1,124.9z" />
+                                    <path
+                                        d="M137,512c-15.3,0-27.8-12.4-27.8-27.8V317.8c0-2.4-2-4.4-4.4-4.4c-2.4,0-4.4,2-4.4,4.4v166.5
+                                            c-0.3,15.3-13.1,27.5-28.4,27.1c-14.8-0.3-26.8-12.3-27.1-27.1V192.7c0-2.4-2-4.4-4.4-4.4c-2.4,0-4.4,2-4.4,4.4v121.8
+                                            c0,10-8.1,18-18,18s-18-8.1-18-18V165.8c0-24.6,20-44.5,44.6-44.6h120.5c24.6,0,44.5,20,44.6,44.6v148.7c0,10-8.1,18-18,18
+                                            c-10,0-18-8.1-18-18V192.7c0-2.4-2-4.4-4.4-4.4c-2.4,0-4.4,2-4.4,4.4v291.5C164.8,499.6,152.3,512,137,512L137,512z M104.8,306.1
+                                            c6.4,0,11.6,5.2,11.6,11.6v166.5c0.3,11.4,9.7,20.3,21.1,20c10.9-0.3,19.7-9.1,20-20V192.7c0-6.4,5.2-11.6,11.6-11.6
+                                            s11.6,5.2,11.6,11.6v121.8c0,6,4.8,10.8,10.8,10.8c6,0,10.8-4.8,10.8-10.8V165.8c0-20.6-16.7-37.3-37.3-37.3H44.5
+                                            c-20.6,0-37.3,16.7-37.3,37.3v148.7c0,6,4.8,10.8,10.8,10.8s10.8-4.8,10.8-10.8V192.7c0-6.4,5.2-11.6,11.6-11.6s11.6,5.2,11.6,11.6
+                                            v291.5c0.3,11.4,9.7,20.3,21.1,20c10.9-0.3,19.7-9.1,20-20V317.8C93.2,311.3,98.4,306.1,104.8,306.1L104.8,306.1z" />
+                                    <circle cx="104.8" cy="50.6" r="47" />
+                                    <path d="M104.8,101.2c-27.9,0-50.6-22.6-50.6-50.6C54.2,22.6,76.9,0,104.8,0c27.9,0,50.6,22.6,50.6,50.6
+                                            C155.4,78.5,132.7,101.1,104.8,101.2z M104.8,7.2c-24,0-43.4,19.4-43.4,43.4S80.9,94,104.8,94s43.4-19.4,43.4-43.4
+                                            C148.2,26.6,128.8,7.2,104.8,7.2L104.8,7.2z" />
+                                </svg>
+
+                            </div>
+                            <div class="CWrapr">
+                                <div class="count">
+                                    <div class="value" data-count="870">0</div>
+                                    <div class="smbl">+</div>
+                                </div>
+                                <div class="Txt">
+                                    Men Sheltered Annually
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="Icon">
+                                <svg id="Women" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 233.8 471">
+                                    <path d="M232.7,242.4c-0.3-1-34.6-98.7-40-114.4c-8.7-25.3-23.2-38.1-43.2-38.1c-28,0-37.2,0-65.2,0c-20,0-34.6,12.8-43.2,38.1
+                                            c-5.4,15.7-39.7,113.4-40,114.4c-3.4,9.7,1.7,20.4,11.5,23.8c9.8,3.4,20.4-1.7,23.8-11.5c1.1-3.2,21.7-60.4,33.2-93.4
+                                            c-1.2,9.8,2.3-10.6-26.7,139.2c-1.2,6.4,3.7,12.4,10.2,12.4c4,0,8.9,0,14.3,0v135.7c0,12.4,10,22.4,22.4,22.4
+                                            c12.4,0,22.4-10,22.4-22.4V312.9c3.2,0,6.5,0,9.7,0v135.7c0,12.4,10,22.4,22.4,22.4s22.4-10,22.4-22.4V312.9c5.4,0,10.2,0,14.3,0
+                                            c6.5,0,11.4-6,10.2-12.4c-28.7-148.4-25.6-131.1-26.5-139.2c11.6,33.2,31.6,90.3,32.7,93.4c3.4,9.8,14.1,14.9,23.8,11.5
+                                            C231,262.8,236.1,252.1,232.7,242.4z" />
+                                    <circle cx="117.1" cy="38.8" r="38.8" />
+                                </svg>
+                            </div>
+                            <div class="CWrapr">
+                                <div class="count">
+                                    <div class="value" data-count="660">0</div>
+                                    <div class="smbl">+</div>
+                                </div>
+                                <div class="Txt">
+                                    Women & Children<br>
+                                    Sheltered Annually
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="Icon">
+                                <svg id="Participants" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238.4 434.3">
+                                    <path d="M164.4,196H73.9C33.1,196,0,229.2,0,269.9v149.6c0,8.2,6.6,14.8,14.8,14.8h208.8c8.2,0,14.8-6.6,14.8-14.8V269.9
+                                            C238.3,229.2,205.1,196,164.4,196z" />
+                                    <path d="M119.1,0c-49,0-88.9,39.9-88.9,88.9c0,33.2,18.3,62.3,45.4,77.5c12.9,7.2,27.7,11.4,43.4,11.4s30.6-4.1,43.4-11.4
+                                            c27.1-15.2,45.4-44.3,45.4-77.5C208,39.9,168.1,0,119.1,0z" />
+                                </svg>
+                            </div>
+                            <div class="CWrapr">
+                                <div class="count">
+                                    <div class="value" data-count="135">0</div>
+                                    <div class="smbl">+</div>
+                                </div>
+                                <div class="Txt">
+                                    New Life Program<br>
+                                    Annual Participants
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="BottomPattern"></div>
+    </section>
+    <!-- COUNTER SECTION -->
+
+    <!-- WHO WE ARE -->
+    <section id="WhoVR">
+        <div class="container">
+            <div class="MainHead">
+                <div class="Head">
+                    Who We Are
+                </div>
+                <div class="SecInfo">
+                    Our Goal Is To Provide A Place Of Refuge For Recovery And Restoration Through The Power And Love Of
+                    Jesus Christ.
+                </div>
+            </div>
+            <div class="FlxRow">
+                <div class="MediaSec">
+                    <div class="Patern"></div>
+                    <div class="Box">
+                        <img src="assets/images/WhoVR.jpg" alt="">
+                        <div class="BoxFoot">
+                            <div class="Txt">watch the video</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path class="st0"
+                                    d="M256,0C114.8,0,0,114.8,0,256s114.8,256,256,256s256-114.8,256-256S397.2,0,256,0z" />
+                                <path class="st1" d="M229,312.3V199.7l87.6,56.3L229,312.3z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="CntnBox">
+                    <p>
+                        <strong>
+                            Since 1948, the Modesto Gospel Mission has provided nutritious meals, warm beds, and a place
+                            of safety to thousands of poor and homeless men, women, and children.
+                        </strong>
+                    </p>
+                    <p>
+                        The Mission is able to serve some of the most broken people in our community by helping them get
+                        off the streets and radically change their lifestyle through a myriad of programs and services.
+                        We offer hope through the love of Jesus – in word and deed. The Mission ministers to the
+                        physical, emotional, and spiritual needs of each guest. More than a food bank or soup kitchen,
+                        we provide daily shelter, clothing, meals, showers, Bible studies, life skills classes,
+                        employment training and assistance, addiction recovery, a medical clinic, and more.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- GSAP --->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <!-- <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script> -->
+
+    <!-- SCROLL_MAGIC -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+        integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- SCROLL_MAGIC -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
@@ -33,6 +220,44 @@
 
 
     <script>
+    $(document).ready(function() {
+        /***********************/
+        // COUNTER SEC
+        /***********************/
+        var controller = new ScrollMagic.Controller();
+        var scene = new ScrollMagic.Scene({
+                triggerElement: '#CounterSec',
+                triggerHook: 0.8
+            })
+            .setClassToggle('#CounterSec', 'isVisible')
+            .on("enter", function() {
+                $('.count .value').each(function() {
+                    var $this = $(this),
+                        countTo = $this.attr('data-count');
+
+                    $({
+                        countNum: $this.text()
+                    }).animate({
+                        countNum: countTo
+                    }, {
+
+                        duration: 2000,
+                        easing: 'linear',
+                        step: function() {
+                            $this.text(Math.floor(this.countNum));
+                        },
+                        complete: function() {
+                            $this.text(this.countNum);
+                            //alert('finished');
+                        }
+
+                    });
+
+                });
+            })
+            .reverse(false)
+            .addTo(controller);
+    });
     // PRODUCTS SLIDE
     // $('.ProSlide').owlCarousel({
     //     loop: true,

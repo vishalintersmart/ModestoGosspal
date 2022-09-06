@@ -6,13 +6,21 @@
 
 #Header
     width: 100%
-    z-index: var(--bs-backdrop-zindex)
+    z-index: 4
     top: 0px
     left: 0px
     animation-duration: 0.5s
-    background: #fff
     position: absolute
     padding: 0px 0
+
+    .container
+        max-width: 100%
+        padding: 0 30px
+
+    .MenuFlx
+        display: flex
+        align-items: center
+        justify-content: space-between
 
     .MenuIcon
         align-items: center
@@ -43,7 +51,7 @@
             display: flex
             align-items: center
             justify-content: center
-            background: $basecolor2
+            background: $basecolor
             @media only screen and (min-width: 468px)
                 justify-content: flex-start
                 background: none
@@ -108,16 +116,17 @@
             visibility: hidden
 
     .HeaderMenu
-        background: #fff
-        border-top: 1px solid rgba(246, 150, 122, 0.302)
-        display: none
-        @media only screen and (min-width: 1200px)
-            display: block
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2)
         .LogoSec
-            width: 185px
+            width: 190px
             a
                 display: block
                 fill: #fff
+        .RitWrp
+            width: calc(100% - 190px)
+            display: flex
+            align-items: center
+            justify-content: flex-end
     #HeaderPOP
         min-height: 100vh
         @media only screen and (min-width: 992px)
@@ -217,147 +226,68 @@
                 padding: 0
                 display: flex
                 align-items: center
+                padding-right: 30px
             .accordion-item
                 border-radius: 0px
                 border: none
                 background: none
                 .accordion-header
                     a, button
-                        font-size: 12px
+                        font-size: 14px
                         text-transform: uppercase
                         border: none
                         background: none
                         outline: none
                         box-shadow: none
                         outline: none
+                        font-weight: 900
                         letter-spacing: 1px
                         padding: 0
                         font-weight: 400
                         position: relative
                         padding: 15px 25px
-                        border-bottom: 1px solid #0d5aad
                         color: $white
-                        @media only screen and (min-width: 992px)
-                            border-bottom: 0
-                            padding: 42px 7px 25px
-                            &::before
-                                content: ""
-                                position: absolute
-                                left: 0
-                                right: 0
-                                bottom: 0
-                                background-color: rgb(229, 110, 159)
-                                width: 0
-                                height: 1px
-                                transition: all .3s
-                                margin: auto
-                        @media only screen and (min-width: 1200px)
-                            padding: 42px 12.5px 25px
+                        @media only screen and  (min-width: 1200px)
+                            font-size: 16px
+                            padding: 38px 22px
+                        svg
+                            width: 20px
+                            fill: #fff
                         &::after
                             display: none
                         &[aria-expanded="true"], &.active, &:hover
-                            color: rgb(229, 110, 159)
-                            // border-color: $basecolor
-                            &::before
-                                @media only screen and (min-width: 992px)
-                                    width: calc(100% - 25px)
-                &.dropdown
-                    .accordion-header
-                        position: relative
-                        &::after
-                            content: ""
-                            position: absolute
-                            right: 15px
-                            top: 50%
-                            transform: translateY(-50%)
-                            background: url('../images/arrowDown.svg') no-repeat
-                            width: 12px
-                            height: 12px
-                            filter: invert(1)
-                            @media only screen and (min-width: 992px)
-                                display: none
-                    &.MegaDrop
-                        position: unset
-                    .dropdown-menu
-                        transform: translate(0, 10px)
-                        transition: opacity .2s ease-in,transform .2s ease-in,visibility .2s ease-in
-                        margin: 0px
-                        position: unset !important
-                        border-radius: 0
-                        @media only screen and (min-width: 992px)
-                            position: absolute !important
-                            opacity: 0
-                            display: block
-                            visibility: hidden
-                            left: 0px !important
-                            top: 99% !important
-                        .CatTitle
-                            font-size: 15px
-                            font-weight: 500
-                            color: rgb(230, 110, 158)
-                            text-transform: uppercase
-                            margin-bottom: 15px
-                            @media only screen and (min-width: 992px)
-                                font-size: 18px
-                                margin-bottom: 25px
-                            &:not(:first-child)
-                                margin-top: 25px
-                                @media only screen and (min-width: 992px)
-                                    margin-top: 45px
-                        ul
-                            li
-                                &:not(:last-of-type)
-                                    margin-bottom: 15px
-                                a
-                                    color: rgb(99, 98, 98)
-                                    display: block
-                                    position: relative
-                                    padding-left: 20px
-                                    font-size: 13px
-                                    @media only screen and (min-width: 992px)
-                                        font-size: 14px
-                                    &::before
-                                        content: ""
-                                        width: 0
-                                        height: 0
-                                        border-top: 4px solid transparent
-                                        border-left: 4px solid #bdaa7a
-                                        border-bottom: 4px solid transparent
-                                        position: absolute
-                                        left: 0
-                                        top: 4px
-                                        transition: all .3s
-                                    &:hover
-                                        color: $basecolor
-                                        &::before
-                                            transform: translateX(6px)
-                                            border-left: 4px solid $basecolor
-
-                        &.MegaMenu
-                            width: 100%
-                            padding: 0
-                            .accordion-body
-                                padding: 20px 0px
-                                @media only screen and (min-width: 992px)
-                                    padding: 50px 15px 45px
-                                @media only screen and (min-width: 1551px)
-                                    padding: 70px 15px 65px
-                            .DropMenuImg
-                                img
-                                    @include imgFit
-                        &.show
-                            opacity: 1
-                            transform: translate(0, 0)
-                            visibility: visible
-                    &:hover
-                        .dropdown-menu
-                            transform: translate(0, 0)
-                            opacity: 1
-                            @media only screen and (min-width: 992px)
-                                visibility: visible
+                            color: $basecolor
         &.show
             .modal-dialog
                 left: 0px
+    .ActionSec
+        border-left: 1px solid rgba(255, 255, 255, 0.2)
+        display: flex
+        align-items: center
+        .Itm
+            &:nth-child(1)
+                padding: 0 35px 0 30px
+        a
+            font-size: 16px
+            text-transform: uppercase
+            font-weight: 900
+            color: #fff
+            @include center
+            .circle
+                width: 44px
+                height: 44px
+                background: #fff
+                border-radius: 50%
+                margin-right: 20px
+                @include center
+                svg, img
+                    width: 20px
+            &.btn
+                background: none
+                border: 2px solid rgb(255, 255, 255)
+                height: 52px
+                color: #25aaff
+                padding: 0 28px
 
     &.sticky
         position: fixed
@@ -366,35 +296,5 @@
         animation-duration: 0.5s
         animation-fill-mode: both
         top: 0px
-        background: $white
         box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1)
         z-index: 1051
-        .TopHeader
-            display: none
-        #HeaderPOP
-            z-index: 99991
-            // min-height: 100vh
-            top: 72px
-            max-height: calc(100vh - 106px)
-            min-height: calc(100vh - 106px)
-            @media only screen and (min-width: 468px)
-                max-height: calc(100vh - 86px)
-                min-height: calc(100vh - 86px)
-                top: 74px
-            @media only screen and (min-width: 992px)
-                top: 73px
-            @media only screen and (min-width: 1200px)
-                top: 120px
-            @media only screen and (min-width: 1551px)
-                top: 160px
-        .HeaderMenu
-            .LogoSec
-                width: 95px
-                @media only screen and (min-width: 468px)
-                    width: 100px
-                @media only screen and (min-width: 768px)
-                    width: 160px
-                @media only screen and (min-width: 1200px)
-                    width: 205px
-        .select2-container
-            z-index: 9999
