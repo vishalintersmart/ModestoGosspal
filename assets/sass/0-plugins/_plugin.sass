@@ -98,9 +98,11 @@
             height: fit-content
             height: -moz-fit-content
             user-select: none
+            background: none
+            outline: none
+            box-shadow: none
             svg
-                // stroke: rgb(246, 150, 122)
-                stroke: $basecolor
+                stroke: $white
                 stroke-width: 1px
                 fill-rule: evenodd
                 stroke-linecap: butt
@@ -108,17 +110,14 @@
                 fill: none
                 width: 12px
                 height: 40px
+                transform: none !important
                 @media only screen and (min-width: 992px)
-                    width: 18px
+                    width: 21px
                     height: 68px
             &.OwlPrev
                 left: 0px
-                @media only screen and (min-width: 1200px)
-                    left: -35px
             &.OwlNext
                 right: 0px
-                @media only screen and (min-width: 1200px)
-                    right: -35px
 
 // JARALLAX
 .jarallax

@@ -172,6 +172,9 @@
             line-height: 35px
 
 #BAPart
+    .container
+        max-width: 100%
+        padding: 0 60px
     .FlxRow
         margin: -27.5px
         @include display
@@ -217,6 +220,8 @@
 
 #HopeStorY
     padding: 140px 0 70px
+    .SliderWrap
+        padding: 0 30px
     .HopeStorYBox
         text-align: center
         color: rgb(255, 255, 255)
@@ -264,3 +269,85 @@
             .HoverBox
                 opacity: 1
                 transform: translateY(0)
+
+#EventsSec
+    padding: 70px 0 75px
+
+#Testimonial
+    background-image: -moz-linear-gradient( 0deg, rgb(20,127,195) 0%, rgb(32,175,205) 100%)
+    background-image: -webkit-linear-gradient( 0deg, rgb(20,127,195) 0%, rgb(32,175,205) 100%)
+    background-image: -ms-linear-gradient( 0deg, rgb(20,127,195) 0%, rgb(32,175,205) 100%)
+    padding: 160px 0 165px
+    position: relative
+    .container
+        padding: 0 125px
+    .DpBox
+        position: relative
+        padding-bottom: 20px
+        margin-bottom: 22px
+        .ImgWrp
+            border-radius: 50%
+            background-color: rgb(227, 119, 87)
+            width: 140px
+            height: 140px
+            overflow: hidden
+            margin: auto
+            transition: all .5s
+            img
+                @include imgFit
+        svg
+            width: 45px
+            fill: #fff
+            position: absolute
+            left: 50%
+            bottom: 0px
+            transform: translateX(-50%)
+            transition-delay: 2s
+            transition: all .3s
+    .TestiBox
+        text-align: center
+        max-width: 735px
+        margin: auto
+        .MsgBox
+            transition: all .3s
+            p
+                font-size: 20px
+                color: rgb(255, 255, 255)
+                font-weight: 600
+                line-height: 30px
+                margin: 0
+        .BoxFoot
+            transition: all .3s
+            padding-top: 35px
+            .Name
+                font-size: 26px
+                color: rgb(255, 255, 255)
+                font-weight: 700
+                text-transform: uppercase
+                margin-bottom: 10px
+            .Progm
+                font-size: 20px
+                font-weight: 300
+                color: rgb(255, 255, 255)
+    #mainSlide
+        width: 100%
+        .splide__slide
+            width: 100%
+            margin: auto
+            opacity: 1
+            [aria-hidden="true"]
+                opacity: 0
+    #thumbSlide
+        width: 100%
+        display: block
+        max-width: 500px !important
+        margin: auto
+        .splide__slide
+            border: none
+            outline: none
+            &:not(.is-active)
+                .DpBox
+                    transform: scale(.5)
+                    opacity: 0.5
+                    svg
+                        opacity: 0

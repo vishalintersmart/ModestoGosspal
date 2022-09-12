@@ -252,32 +252,185 @@
                 </div>
             </div>
         </div>
-        <div class="HopeStorYSlide owl-carousel">
-            <div class="HopeStorYBox">
-                <div class="ImgBox">
-                    <img src="assets/images/Story1.jpg" alt="">
-                </div>
-                <div class="BoxTitle">
-                    <div class="Title">Stories of Hope</div>
-                    <div class="Discrp">
-                        To inspire and motivate you
+        <div class="SliderWrap">
+            <div class="HopeStorYSlide owl-carousel">
+                <div class="HopeStorYBox">
+                    <div class="ImgBox">
+                        <img src="assets/images/Story1.jpg" alt="">
                     </div>
-                </div>
-                <div class="HoverBox">
-                    <div class="Wrp">
+                    <div class="BoxTitle">
                         <div class="Title">Stories of Hope</div>
                         <div class="Discrp">
                             To inspire and motivate you
                         </div>
-                        <div class="Info">
-                            The Mission is able to serve some of the most broken people in our community by helping them
-                            get
-                            off the streets and radically change their lifestyle through a myriad of programs and
-                            services.
-                            We offer hope through the love of Jesus
+                    </div>
+                    <div class="HoverBox">
+                        <div class="Wrp">
+                            <div class="Title">Stories of Hope</div>
+                            <div class="Discrp">
+                                To inspire and motivate you
+                            </div>
+                            <div class="Info">
+                                The Mission is able to serve some of the most broken people in our community by helping
+                                them
+                                get
+                                off the streets and radically change their lifestyle through a myriad of programs and
+                                services.
+                                We offer hope through the love of Jesus
+                            </div>
+                            <div class="StorYTelr">
+                                Shiv Nadar
+                            </div>
                         </div>
-                        <div class="StorYTelr">
-                            Shiv Nadar
+                    </div>
+                </div>
+                <div class="HopeStorYBox">
+                    <div class="ImgBox">
+                        <img src="assets/images/Story1.jpg" alt="">
+                    </div>
+                    <div class="BoxTitle">
+                        <div class="Title">Stories of Hope</div>
+                        <div class="Discrp">
+                            To inspire and motivate you
+                        </div>
+                    </div>
+                    <div class="HoverBox">
+                        <div class="Wrp">
+                            <div class="Title">Stories of Hope</div>
+                            <div class="Discrp">
+                                To inspire and motivate you
+                            </div>
+                            <div class="Info">
+                                The Mission is able to serve some of the most broken people in our community by helping
+                                them
+                                get
+                                off the streets and radically change their lifestyle through a myriad of programs and
+                                services.
+                                We offer hope through the love of Jesus
+                            </div>
+                            <div class="StorYTelr">
+                                Shiv Nadar
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="HopeStorYBox">
+                    <div class="ImgBox">
+                        <img src="assets/images/Story1.jpg" alt="">
+                    </div>
+                    <div class="BoxTitle">
+                        <div class="Title">Stories of Hope</div>
+                        <div class="Discrp">
+                            To inspire and motivate you
+                        </div>
+                    </div>
+                    <div class="HoverBox">
+                        <div class="Wrp">
+                            <div class="Title">Stories of Hope</div>
+                            <div class="Discrp">
+                                To inspire and motivate you
+                            </div>
+                            <div class="Info">
+                                The Mission is able to serve some of the most broken people in our community by helping
+                                them
+                                get
+                                off the streets and radically change their lifestyle through a myriad of programs and
+                                services.
+                                We offer hope through the love of Jesus
+                            </div>
+                            <div class="StorYTelr">
+                                Shiv Nadar
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="HopeStorYBox">
+                    <div class="ImgBox">
+                        <img src="assets/images/Story1.jpg" alt="">
+                    </div>
+                    <div class="BoxTitle">
+                        <div class="Title">Stories of Hope</div>
+                        <div class="Discrp">
+                            To inspire and motivate you
+                        </div>
+                    </div>
+                    <div class="HoverBox">
+                        <div class="Wrp">
+                            <div class="Title">Stories of Hope</div>
+                            <div class="Discrp">
+                                To inspire and motivate you
+                            </div>
+                            <div class="Info">
+                                The Mission is able to serve some of the most broken people in our community by helping
+                                them
+                                get
+                                off the streets and radically change their lifestyle through a myriad of programs and
+                                services.
+                                We offer hope through the love of Jesus
+                            </div>
+                            <div class="StorYTelr">
+                                Shiv Nadar
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="HopeStorYBox">
+                    <div class="ImgBox">
+                        <img src="assets/images/Story1.jpg" alt="">
+                    </div>
+                    <div class="BoxTitle">
+                        <div class="Title">Stories of Hope</div>
+                        <div class="Discrp">
+                            To inspire and motivate you
+                        </div>
+                    </div>
+                    <div class="HoverBox">
+                        <div class="Wrp">
+                            <div class="Title">Stories of Hope</div>
+                            <div class="Discrp">
+                                To inspire and motivate you
+                            </div>
+                            <div class="Info">
+                                The Mission is able to serve some of the most broken people in our community by helping
+                                them
+                                get
+                                off the streets and radically change their lifestyle through a myriad of programs and
+                                services.
+                                We offer hope through the love of Jesus
+                            </div>
+                            <div class="StorYTelr">
+                                Shiv Nadar
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="HopeStorYBox">
+                    <div class="ImgBox">
+                        <img src="assets/images/Story1.jpg" alt="">
+                    </div>
+                    <div class="BoxTitle">
+                        <div class="Title">Stories of Hope</div>
+                        <div class="Discrp">
+                            To inspire and motivate you
+                        </div>
+                    </div>
+                    <div class="HoverBox">
+                        <div class="Wrp">
+                            <div class="Title">Stories of Hope</div>
+                            <div class="Discrp">
+                                To inspire and motivate you
+                            </div>
+                            <div class="Info">
+                                The Mission is able to serve some of the most broken people in our community by helping
+                                them
+                                get
+                                off the streets and radically change their lifestyle through a myriad of programs and
+                                services.
+                                We offer hope through the love of Jesus
+                            </div>
+                            <div class="StorYTelr">
+                                Shiv Nadar
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -285,6 +438,208 @@
         </div>
     </section>
     <!-- STORIES OF HOPE -->
+
+    <!-- UPCOMMING EVENTS -->
+    <section id="EventsSec">
+        <div class="container">
+            <div class="MainHead">
+                <div class="Head">
+                    UPCOMING EVENTS
+                </div>
+                <div class="SecInfo">
+                    We hold many events each year to support our ministry to the
+                    homeless and to the Modesto community.
+                </div>
+            </div>
+            <div class="EventsSlide owl-carousel">
+                <div class="EventBox">
+                    <div class="ImgBox">
+                        <img src="assets/images/Story1.jpg" alt="">
+                    </div>
+                    <div class="BoxFoot">
+                        <div class="Event">Christmas Events</div>
+                        <ul>
+                            <li>Date. <span>August 15, 2022</span></li> ,
+                            <li>Time. <span>12:15 PM</span></li>
+                        </ul>
+                        <div class="ShrotDiscr">
+                            There are many variations of passages of Lorem Ipsum available, but
+                        </div>
+                    </div>
+                </div>
+                <div class="EventBox">
+                    <div class="ImgBox">
+                        <img src="assets/images/Story1.jpg" alt="">
+                    </div>
+                    <div class="BoxFoot">
+                        <div class="Event">Christmas Events</div>
+                        <ul>
+                            <li>Date. <span>August 15, 2022</span></li> ,
+                            <li>Time. <span>12:15 PM</span></li>
+                        </ul>
+                        <div class="ShrotDiscr">
+                            There are many variations of passages of Lorem Ipsum available, but
+                        </div>
+                    </div>
+                </div>
+                <div class="EventBox">
+                    <div class="ImgBox">
+                        <img src="assets/images/Story1.jpg" alt="">
+                    </div>
+                    <div class="BoxFoot">
+                        <div class="Event">Christmas Events</div>
+                        <ul>
+                            <li>Date. <span>August 15, 2022</span></li> ,
+                            <li>Time. <span>12:15 PM</span></li>
+                        </ul>
+                        <div class="ShrotDiscr">
+                            There are many variations of passages of Lorem Ipsum available, but
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- UPCOMMING EVENTS -->
+
+    <!-- TESTIMONIAL SEC -->
+    <section id="Testimonial">
+        <div class="TopPattern"></div>
+        <div class="container">
+            <div class="SliderWrp">
+                <div id="thumbSlide" class="splide" role="group" aria-label="Splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="DpBox">
+                                    <div class="ImgWrp">
+                                        <img src="assets/images/Testi1.jpg" alt="">
+                                    </div>
+                                    <svg id="Quotes" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 379.7 290.1">
+                                        <path
+                                            d="M34.1,266.7C12.8,243.2,0,217.6,0,174.9C0,100.3,53.3,34.1,128,0l19.2,27.7c-70.4,38.4-85.3,87.5-89.6,119.5
+                                        c10.7-6.4,25.6-8.5,40.5-6.4c38.4,4.3,68.3,34.1,68.3,74.7c0,19.2-8.5,38.4-21.3,53.3c-14.9,14.9-32,21.3-53.3,21.3
+                                        C68.3,290.1,46.9,279.5,34.1,266.7L34.1,266.7z M247.5,266.7c-21.3-23.5-34.1-49.1-34.1-91.7c0-74.7,53.3-140.8,128-174.9l19.2,27.7
+                                        c-70.4,38.4-85.3,87.5-89.6,119.5c10.7-6.4,25.6-8.5,40.5-6.4c38.4,4.3,68.3,34.1,68.3,74.7c0,19.2-8.5,38.4-21.3,53.3
+                                        c-12.8,14.9-32,21.3-53.3,21.3C281.6,290.1,260.3,279.5,247.5,266.7L247.5,266.7z" />
+                                    </svg>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="DpBox">
+                                    <div class="ImgWrp">
+                                        <img src="assets/images/Testi1.jpg" alt="">
+                                    </div>
+                                    <svg id="Quotes" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 379.7 290.1">
+                                        <path
+                                            d="M34.1,266.7C12.8,243.2,0,217.6,0,174.9C0,100.3,53.3,34.1,128,0l19.2,27.7c-70.4,38.4-85.3,87.5-89.6,119.5
+                                        c10.7-6.4,25.6-8.5,40.5-6.4c38.4,4.3,68.3,34.1,68.3,74.7c0,19.2-8.5,38.4-21.3,53.3c-14.9,14.9-32,21.3-53.3,21.3
+                                        C68.3,290.1,46.9,279.5,34.1,266.7L34.1,266.7z M247.5,266.7c-21.3-23.5-34.1-49.1-34.1-91.7c0-74.7,53.3-140.8,128-174.9l19.2,27.7
+                                        c-70.4,38.4-85.3,87.5-89.6,119.5c10.7-6.4,25.6-8.5,40.5-6.4c38.4,4.3,68.3,34.1,68.3,74.7c0,19.2-8.5,38.4-21.3,53.3
+                                        c-12.8,14.9-32,21.3-53.3,21.3C281.6,290.1,260.3,279.5,247.5,266.7L247.5,266.7z" />
+                                    </svg>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="DpBox">
+                                    <div class="ImgWrp">
+                                        <img src="assets/images/Testi1.jpg" alt="">
+                                    </div>
+                                    <svg id="Quotes" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 379.7 290.1">
+                                        <path
+                                            d="M34.1,266.7C12.8,243.2,0,217.6,0,174.9C0,100.3,53.3,34.1,128,0l19.2,27.7c-70.4,38.4-85.3,87.5-89.6,119.5
+                                        c10.7-6.4,25.6-8.5,40.5-6.4c38.4,4.3,68.3,34.1,68.3,74.7c0,19.2-8.5,38.4-21.3,53.3c-14.9,14.9-32,21.3-53.3,21.3
+                                        C68.3,290.1,46.9,279.5,34.1,266.7L34.1,266.7z M247.5,266.7c-21.3-23.5-34.1-49.1-34.1-91.7c0-74.7,53.3-140.8,128-174.9l19.2,27.7
+                                        c-70.4,38.4-85.3,87.5-89.6,119.5c10.7-6.4,25.6-8.5,40.5-6.4c38.4,4.3,68.3,34.1,68.3,74.7c0,19.2-8.5,38.4-21.3,53.3
+                                        c-12.8,14.9-32,21.3-53.3,21.3C281.6,290.1,260.3,279.5,247.5,266.7L247.5,266.7z" />
+                                    </svg>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="mainSlide" class="splide" role="group" aria-label="Splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="TestiBox">
+                                    <div class="MsgBox">
+                                        <p>
+                                            "I joined the New Life Program not realizing how much God had his hands on
+                                            my
+                                            life and
+                                            my kids lives from day one. The Mission has given me the best tools ever and
+                                            allowed me
+                                            to have a strong foundation with the Lord."
+                                        </p>
+                                    </div>
+                                    <div class="BoxFoot">
+                                        <div class="Name">Evelyn</div>
+                                        <div class="Progm">Women's New Life Program</div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="TestiBox">
+                                    <div class="MsgBox">
+                                        <p>
+                                            "I joined the New Life Program not realizing how much God had his hands on
+                                            my
+                                            life and
+                                            my kids lives from day one. The Mission has given me the best tools ever and
+                                            allowed me
+                                            to have a strong foundation with the Lord."
+                                        </p>
+                                    </div>
+                                    <div class="BoxFoot">
+                                        <div class="Name">Evelyn</div>
+                                        <div class="Progm">Women's New Life Program</div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="TestiBox">
+                                    <div class="MsgBox">
+                                        <p>
+                                            "I joined the New Life Program not realizing how much God had his hands on
+                                            my
+                                            life and
+                                            my kids lives from day one. The Mission has given me the best tools ever and
+                                            allowed me
+                                            to have a strong foundation with the Lord."
+                                        </p>
+                                    </div>
+                                    <div class="BoxFoot">
+                                        <div class="Name">Evelyn</div>
+                                        <div class="Progm">Women's New Life Program</div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="Navigation">
+                        <div class="splide__arrows splide__arrows--ltr">
+                            <button class="splide__arrow splide__arrow--prev OwlPrev arrows" type="button"
+                                aria-label="Previous slide" aria-controls="mainSlide">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.5 59.5">
+                                    <path d="M15.609,1.503 L2.496,29.550 L15.609,57.490 "></path>
+                                </svg>
+                            </button>
+                            <button class="splide__arrow splide__arrow--next OwlNext arrows" type="button"
+                                aria-label="Next slide" aria-controls="mainSlide">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.5 59.5">
+                                    <path d="M1.527,0.659 L14.816,28.550 L1.527,56.334 "></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="BottomPattern"></div>
+    </section>
+    <!-- TESTIMONIAL SEC -->
 
 
     <!-- GSAP --->
@@ -311,6 +666,11 @@
     <link rel="stylesheet" type="text/css"
         href="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+
+    <!-- SPLIDE-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css">
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js">
     </script>
 
     <script>
@@ -352,6 +712,7 @@
             .reverse(false)
             .addTo(controller);
     });
+
     // PRODUCTS SLIDE
     $('.HopeStorYSlide').owlCarousel({
         loop: true,
@@ -375,16 +736,110 @@
             },
             1200: {
                 items: 4,
-                margin: 30,
-                loop: function() {
-                    if ($(this).find('.owl-item').length > 3) {
-                        return true;
-                    }
-                    return false;
-                }
+                margin: 15,
+                loop: $('.HopeStorYSlide .HopeStorYBox').lenght > 4 ? true : false,
+                rewind: true,
+            },
+            1551: {
+                items: 5,
+                margin: 15,
+                loop: $('.HopeStorYSlide .HopeStorYBox').lenght > 5 ? true : false,
+                rewind: true,
             }
         }
     });
+
+    // EVENTS SLIDE
+    $('.EventsSlide').owlCarousel({
+        loop: true,
+        autoplay: true,
+        smartSpeed: 500,
+        autoplayTimeout: 3500,
+        autoplayHoverPause: true,
+        responsiveClass: true,
+        nav: false,
+        dots: false,
+        items: 2,
+        margin: 5,
+        responsive: {
+            576: {
+                items: 2.5,
+                margin: 10,
+            },
+            768: {
+                items: 3,
+                margin: 15,
+            },
+            1200: {
+                items: 3,
+                margin: 50,
+                loop: $('.EventsSlide .EventBox').lenght > 3 ? true : false,
+                rewind: true,
+            },
+        }
+    });
+
+    // TESTI SLIDE
+    var main = new Splide('#mainSlide', {
+        type: 'fade',
+        autoWidth: true,
+        autoHeight: true,
+        pagination: false,
+        arrows: false,
+        cover: true,
+        drag: true,
+        interval: 5000,
+        speed: 800,
+        arrows: 2,
+        perPage: 1,
+        focus: 'center',
+        classes: {
+            arrows: 'splide__arrows',
+            arrow: 'splide__arrow',
+            prev: 'splide__arrow--prev your-class-prev',
+            next: 'splide__arrow--next your-class-next',
+        },
+    });
+
+    var thumbnails = new Splide('#thumbSlide', {
+        type: 'loop',
+        perPage: 3,
+        focus: 'center',
+        autoplay: true,
+        interval: 5000,
+        speed: 100,
+        perMove: 1,
+        // rewindSpeed: 100,
+        gap: 0,
+        isNavigation: true,
+        pagination: false,
+        arrows: false,
+        cover: true,
+        rewind: true,
+        wheel: false,
+        drag: false,
+        // autoWidth: true,
+        // autoHeight: true,
+        dragMinThreshold: {
+            mouse: 4,
+            touch: 10,
+        },
+        // breakpoints: {
+        //     992: {
+        //         width: 700,
+        //     },
+        //     1200: {
+        //         width: 445,
+        //         height: 100,
+        //         gap: 10,
+        //         perPage: 3,
+        //     }
+        // },
+    });
+
+    main.sync(thumbnails);
+    main.mount();
+    thumbnails.mount();
     </script>
 
 </div>
