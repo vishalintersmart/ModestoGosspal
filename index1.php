@@ -218,7 +218,11 @@
                                 Do You
                                 Need Help ?
                             </div>
-                            <a href="#!" class="btn">Learn More</a>
+                            <a href="#!" class="btn hoveranim">
+                                <span>
+                                    Learn More
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -230,7 +234,11 @@
                                 BECOME A
                                 PART TODAY
                             </div>
-                            <a href="#!" class="btn">Donate Now</a>
+                            <a href="#!" class="btn hoveranim">
+                                <span>
+                                    Donate Now
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -641,6 +649,215 @@
     </section>
     <!-- TESTIMONIAL SEC -->
 
+    <!-- TESTIMONIAL SEC -->
+    <section id="SupportUs">
+        <div class="container">
+            <div class="FlexRow">
+                <div class="FlxItm">
+                    <div class="Box">
+                        <div class="ImgBox">
+                            <img src="assets/images/volunteer.jpg" alt="VolenteLogo">
+                        </div>
+                        <div class="CntnWrp">
+                            <div class="Title">
+                                <img src="assets/images/VolenteLogo.png" alt="VolenteLogo">
+                            </div>
+                            <div class="Info">
+                                Volunteers are an essential part of the ministry here at the Modesto Gospel Mission, and
+                                no
+                                matter how you
+                            </div>
+                            <a href="#!" class="btn hoveranim">
+                                <span>Sign up to volunteer</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="FlxItm">
+                    <div class="Box">
+                        <div class="ImgBox">
+                            <img src="assets/images/fondraiser.jpg" alt="VolenteLogo">
+                        </div>
+                        <div class="CntnWrp">
+                            <div class="Title">
+                                Start a
+                                Fundraiser
+                            </div>
+                            <div class="Info">
+                                Volunteers are an essential part of the ministry here at the Modesto Gospel Mission, and
+                                no matter how you wish to volunteer, there is a place for you at the Mission!
+                            </div>
+                            <a href="#!" class="btn hoveranim">
+                                <span>Start a Fundraiser</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TESTIMONIAL SEC -->
+
+    <!-- OUR SHUTTLE -->
+    <section id="OurShuttle">
+        <div class="container">
+            <div class="MainHead">
+                <div class="Head">
+                    Our shuttle
+                </div>
+                <div class="SecInfo">
+                    There are many variations of passages of Lorem Ipsum available, but
+                </div>
+            </div>
+            <div class="FlxRow">
+                <div class="ShuttleList">
+                    <ul>
+                        <li>
+                            <div class="Box">
+                                <div class="Icon">
+                                    <img src="assets/images/Shuttle1.png" alt="Shuttle1">
+                                </div>
+                                <div class="CntntBox">
+                                    <div class="Title">Tuesday shuttle </div>
+                                    <div class="Time">9AM- 12:30PM</div>
+                                    <div class="Wher">
+                                        Where: Modesto Gospel Mission<br>
+                                        1400 Yosemite Blvd., Modesto, CA 95354
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="Box">
+                                <div class="Icon">
+                                    <img src="assets/images/Shuttle2.png" alt="Shuttle2">
+                                </div>
+                                <div class="CntntBox">
+                                    <div class="Title">Wednesday shuttle</div>
+                                    <div class="Time">9AM- 12:30PM</div>
+                                    <div class="Wher">
+                                        Where: Modesto Gospel Mission<br>
+                                        1400 Yosemite Blvd., Modesto, CA 95354
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ImgBox">
+                    <img src="assets/images/shuttleImg.jpg" alt="">
+                </div>
+            </div>
+            <a href="#!" class="ViewAll">View More +</a>
+        </div>
+    </section>
+    <!-- OUR SHUTTLE -->
+
+    <!-- PARTNERS -->
+    <section id="CorporatePartners">
+        <div class="TopPattern"></div>
+        <div class="container">
+            <div class="MainHead">
+                <div class="Head">
+                    CORPORATE PARTNERS
+                </div>
+                <div class="SecInfo">
+                    We partner with many great local companies, organizations, and individuals. Our operations would not
+                    be possible without their continued support of our work here at the Mission.
+                </div>
+            </div>
+            <div class="PartnersSlideWrap">
+                <ul class="PartnersSlide owl-carousel">
+                    <li>
+                        <img src="assets/images/Partner1.jpg" alt="Partner">
+                    </li>
+                    <li>
+                        <img src="assets/images/Partner2.jpg" alt="Partner">
+                    </li>
+                    <li>
+                        <img src="assets/images/Partner3.jpg" alt="Partner">
+                    </li>
+                    <li>
+                        <img src="assets/images/Partner4.jpg" alt="Partner">
+                    </li>
+                    <li>
+                        <img src="assets/images/Partner5.jpg" alt="Partner">
+                    </li>
+                    <li>
+                        <img src="assets/images/Partner6.jpg" alt="Partner">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="BottomPattern"></div>
+    </section>
+    <!-- PARTNERS -->
+
+    <!-- NEWSLETTERS -->
+    <section id="Newsletters">
+        <div class="container">
+            <div class="MainHead">
+                <div class="Head">
+                    NEWSLETTERS
+                </div>
+                <div class="SecInfo">
+                    Stay up to date on the latest activities, operations, news, and
+                    more that the Mission has to offer.
+                </div>
+            </div>
+            <div class="NewsletterSlide">
+                <a href="#!" class="NewsletterBox">
+                    <div class="imgBox">
+                        <img src="assets/images/Newsletter1.jpg" alt="Newsletter">
+                    </div>
+                    <div class="BoxInfo">
+                        <div class="Title">
+                            There are many variations of
+                            passages of Lorem Ipsum available,
+                        </div>
+                        <div class="Date">
+                            Post Date. <span>August 15, 2022</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="FormSec">
+                <form action="" method="post">
+                    <div class="FormTitle">Newsletter - Sign up for updates and events</div>
+                    <div class="form-group">
+                        <label for="">
+                            <svg id="MailIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525.6 397">
+                                <style type="text/css">
+                                .st0 {
+                                    stroke: #000000;
+                                    stroke-width: 8;
+                                    stroke-miterlimit: 10;
+                                }
+                                </style>
+                                <path class="st0" d="M62.8,393h400c32.4,0,58.7-26.3,58.8-58.8V62.8c0-32.4-26.3-58.7-58.8-58.8h-400C30.4,4,4.1,30.3,4,62.8v271.4
+                                                        C4,366.7,30.3,392.9,62.8,393z M62.8,375.5c-9,0-17.8-3-25-8.4l119.6-122.4c2.2-2.2,3.1-5.5,2.2-8.5c-0.8-3-3.2-5.4-6.3-6.1
+                                                        c-3.1-0.8-6.3,0.1-8.5,2.4L26.4,353.7c-3.2-6-4.9-12.6-4.9-19.4V82.1l203.4,172.2c21.9,18.6,54.1,18.6,76,0L504,81.9v252.3
+                                                        c0,6.8-1.7,13.5-4.9,19.5L379.9,232.4c-3.4-3.4-8.9-3.4-12.3-0.1c-3.4,3.4-3.5,8.9-0.1,12.3L487.8,367c-7.2,5.5-15.9,8.4-24.9,8.4
+                                                        H62.8V375.5z M62.8,21.5h400c21.3,0,39.1,16.3,41.1,37.6L289.5,240.9c-15.4,13.1-38,13.1-53.3,0L21.7,59.3
+                                                        C23.5,38,41.3,21.6,62.8,21.5z" />
+                            </svg>
+
+                        </label>
+                        <input type="email" name="Subscribe" id="Subscribe" required class="form-control"
+                            placeholder="Email Address">
+                    </div>
+                    <button class="Submit" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.5 13.5">
+                            <path fill-rule="evenodd" stroke="rgb(34, 41, 35)" stroke-width="1px" stroke-linecap="butt"
+                                stroke-linejoin="miter" fill="none" d="M1.734,1.690 L6.19,6.726 L1.734,11.763 " />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- NEWSLETTERS -->
+
 
     <!-- GSAP --->
     <!-- <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
@@ -793,6 +1010,7 @@
         arrows: 2,
         perPage: 1,
         focus: 'center',
+        rewind: true,
         classes: {
             arrows: 'splide__arrows',
             arrow: 'splide__arrow',
@@ -840,6 +1058,36 @@
     main.sync(thumbnails);
     main.mount();
     thumbnails.mount();
+
+    // PARTNERS SLIDE
+    $('.PartnersSlide').owlCarousel({
+        loop: true,
+        autoplay: true,
+        smartSpeed: 500,
+        autoplayTimeout: 3500,
+        autoplayHoverPause: true,
+        responsiveClass: true,
+        nav: false,
+        dots: false,
+        items: 2,
+        margin: 5,
+        responsive: {
+            576: {
+                items: 2.5,
+                margin: 10,
+            },
+            768: {
+                items: 3,
+                margin: 15,
+            },
+            1200: {
+                items: 6,
+                margin: 50,
+                loop: $('.PartnersSlide li').lenght > 6 ? true : false,
+                rewind: true,
+            },
+        }
+    });
     </script>
 
 </div>
