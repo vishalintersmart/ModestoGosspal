@@ -158,6 +158,7 @@
 
     <!-- WHO WE ARE -->
     <section id="WhoVR">
+        <div class="SecLine"></div>
         <div class="container">
             <div class="MainHead">
                 <div class="Head">
@@ -171,7 +172,7 @@
             <div class="FlxRow">
                 <div class="MediaSec">
                     <div class="Patern"></div>
-                    <div class="Box">
+                    <a href="assets/images/MainVideo.mp4" data-fancybox="WhoVR" class="Box">
                         <img src="assets/images/WhoVR.jpg" alt="">
                         <div class="BoxFoot">
                             <div class="Txt">watch the video</div>
@@ -181,12 +182,13 @@
                                 <path class="st1" d="M229,312.3V199.7l87.6,56.3L229,312.3z" />
                             </svg>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="CntnBox">
                     <p>
                         <strong>
-                            Since 1948, the Modesto Gospel Mission has provided nutritious meals, warm beds, and a place
+                            Since 1948, the Momdesto Gospel Mission has provided nutritious meals, warm beds, and a
+                            place
                             of safety to thousands of poor and homeless men, women, and children.
                         </strong>
                     </p>
@@ -202,6 +204,87 @@
             </div>
         </div>
     </section>
+    <!-- WHO WE ARE -->
+
+    <!-- BE A PART -->
+    <section id="BAPart">
+        <div class="container">
+            <div class="FlxRow">
+                <div class="FlxItm">
+                    <div class="Box">
+                        <img src="assets/images/NeedHelp.jpg" alt="">
+                        <div class="InfoBox">
+                            <div class="Txt">
+                                Do You
+                                Need Help ?
+                            </div>
+                            <a href="#!" class="btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="FlxItm">
+                    <div class="Box">
+                        <img src="assets/images/DonateNow.jpg" alt="">
+                        <div class="InfoBox">
+                            <div class="Txt">
+                                BECOME A
+                                PART TODAY
+                            </div>
+                            <a href="#!" class="btn">Donate Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BE A PART -->
+
+    <!-- STORIES OF HOPE -->
+    <section id="HopeStorY">
+        <div class="container">
+            <div class="MainHead">
+                <div class="Head">
+                    Stories of Hope
+                </div>
+                <div class="SecInfo">
+                    We hold many events each year to support our ministry to the
+                    homeless and to the Modesto community.
+                </div>
+            </div>
+        </div>
+        <div class="HopeStorYSlide owl-carousel">
+            <div class="HopeStorYBox">
+                <div class="ImgBox">
+                    <img src="assets/images/Story1.jpg" alt="">
+                </div>
+                <div class="BoxTitle">
+                    <div class="Title">Stories of Hope</div>
+                    <div class="Discrp">
+                        To inspire and motivate you
+                    </div>
+                </div>
+                <div class="HoverBox">
+                    <div class="Wrp">
+                        <div class="Title">Stories of Hope</div>
+                        <div class="Discrp">
+                            To inspire and motivate you
+                        </div>
+                        <div class="Info">
+                            The Mission is able to serve some of the most broken people in our community by helping them
+                            get
+                            off the streets and radically change their lifestyle through a myriad of programs and
+                            services.
+                            We offer hope through the love of Jesus
+                        </div>
+                        <div class="StorYTelr">
+                            Shiv Nadar
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- STORIES OF HOPE -->
 
 
     <!-- GSAP --->
@@ -218,6 +301,17 @@
         integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+    <!-- FANCY_BOX-->
+    <link rel="stylesheet" type="text/css"
+        href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.css">
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.js">
+    </script>
+
+    <!-- OWL-->
+    <link rel="stylesheet" type="text/css"
+        href="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
 
     <script>
     $(document).ready(function() {
@@ -259,38 +353,38 @@
             .addTo(controller);
     });
     // PRODUCTS SLIDE
-    // $('.ProSlide').owlCarousel({
-    //     loop: true,
-    //     autoplay: true,
-    //     smartSpeed: 500,
-    //     autoplayTimeout: 3500,
-    //     autoplayHoverPause: true,
-    //     responsiveClass: true,
-    //     nav: false,
-    //     dots: false,
-    //     items: 2,
-    //     margin: 5,
-    //     responsive: {
-    //         576: {
-    //             items: 2.5,
-    //             margin: 10,
-    //         },
-    //         768: {
-    //             items: 3,
-    //             margin: 15,
-    //         },
-    //         1200: {
-    //             items: 4,
-    //             margin: 30,
-    //             loop: function() {
-    //                 if ($(this).find('.owl-item').length > 3) {
-    //                     return true;
-    //                 }
-    //                 return false;
-    //             }
-    //         }
-    //     }
-    // });
+    $('.HopeStorYSlide').owlCarousel({
+        loop: true,
+        autoplay: true,
+        smartSpeed: 500,
+        autoplayTimeout: 3500,
+        autoplayHoverPause: true,
+        responsiveClass: true,
+        nav: false,
+        dots: false,
+        items: 2,
+        margin: 5,
+        responsive: {
+            576: {
+                items: 2.5,
+                margin: 10,
+            },
+            768: {
+                items: 3,
+                margin: 15,
+            },
+            1200: {
+                items: 4,
+                margin: 30,
+                loop: function() {
+                    if ($(this).find('.owl-item').length > 3) {
+                        return true;
+                    }
+                    return false;
+                }
+            }
+        }
+    });
     </script>
 
 </div>

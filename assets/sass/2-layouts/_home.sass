@@ -81,9 +81,36 @@
                     font-size: 16px
 
 #WhoVR
+    position: relative
+    padding: 105px 0 155px
+    .SecLine
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        top: -55px
+        width: 5px
+        height: 105px
+        &::before, &::after
+            content: ""
+            position: absolute
+            left: 50%
+            transform: translateX(-50%)
+            background-color: rgb(20, 127, 195)
+        &::before
+            top: 0
+            width: 1px
+            height: 100%
+        &::after
+            bottom: 0
+            border-radius: 50%
+            width: 5px
+            height: 5px
+
     .MainHead
         @media only screen and (min-width: 1551px)
             margin-bottom: 60px
+        .SecInfo
+            max-width: 935px
     .FlxRow
         @include display
     .MediaSec
@@ -91,6 +118,7 @@
         width: 470px
         height: 315px
         position: relative
+        order: 1
         &::before
             content: ""
             position: absolute
@@ -103,6 +131,10 @@
             background: -webkit-linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%)
             background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%)
             filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1)
+        .Box
+            width: 100%
+            height: 100%
+            display: block
         img
             @include imgFit
         .BoxFoot
@@ -124,3 +156,111 @@
                 .st1
                     fill: #000
     .CntnBox
+        width: calc(100% - 470px)
+        padding-right: 115px
+        order: 0
+        p
+            color: rgb(65, 64, 64)
+            font-size: 18px
+            line-height: 30px
+            &:not(:last-of-type)
+                margin-bottom: 35px
+
+        strong
+            font-weight: 400
+            font-size: 30px
+            line-height: 35px
+
+#BAPart
+    .FlxRow
+        margin: -27.5px
+        @include display
+        >*
+            width: 50%
+            padding: 27.5px
+            &:nth-child(1)
+                .Box
+                    .InfoBox
+                        top: 0
+                        left: 0
+                        padding: 18px 40px 30px
+            &:nth-child(2)
+                .Box
+                    .InfoBox
+                        padding: 25px 25px 5px
+                        bottom: 0
+                        right: 0
+    .Box
+        background-color: rgb(0, 0, 0)
+        width: 100%
+        height: 490px
+        text-align: center
+        position: relative
+        img
+            @include imgFit
+        .InfoBox
+            position: absolute
+            background-color: rgb(255, 255, 255)
+            width: 415px
+            max-width: 90%
+            height: fit-content
+            height: -moz-fit-content
+            .Txt
+                font-weight: 900
+                font-size: 50px
+                color: rgb(29, 29, 30)
+                text-transform: uppercase
+                line-height: 50px
+            .btn
+                margin-top: 25px
+        .HoverBox
+
+#HopeStorY
+    padding: 140px 0 70px
+    .HopeStorYBox
+        text-align: center
+        color: rgb(255, 255, 255)
+        position: relative
+        .ImgBox
+            height: 380px
+            img
+                @include imgFit
+        .Title
+            font-size: 23px
+            font-weight: 700
+            margin-bottom: 7px
+        .Discrp
+            font-size: 18px
+            font-weight: 300
+        .BoxTitle
+            padding: 25px 30px 30px
+            background: $basecolor
+            transition: all .3s
+        .HoverBox
+            background: $basecolor
+            padding: 25px 30px 30px
+            position: absolute
+            bottom: 0
+            left: 0
+            opacity: 0
+            transform: translateY(100%)
+            transition: all .3s
+            height: 100%
+            display: flex
+            align-items: center
+            justify-content: center
+            .Info
+                font-size: 18px
+                line-height: 23px
+                margin-top: 35px
+            .StorYTelr
+                font-size: 18px
+                text-transform: uppercase
+                margin-top: 55px
+        &:hover
+            .BoxTitle
+                opacity: 0
+                transform: translateY(-10px)
+            .HoverBox
+                opacity: 1
+                transform: translateY(0)
