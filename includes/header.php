@@ -370,8 +370,10 @@ session_start();
                                 </a>
                             </div>
                             <div class="Itm">
-                                <a href="#!" class="btn">
-                                    Donate Now
+                                <a href="#!" class="btn hoveranim">
+                                    <span>
+                                        Donate Now
+                                    </span>
                                 </a>
                             </div>
                         </div>

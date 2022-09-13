@@ -198,8 +198,12 @@
     z-index: 2
     -webkit-mask-size: cover !important
     mask-size: cover !important
-    height: 100px
     background: #fff
+    height: 50px
+    @media only screen and (min-width: 468px)
+        height: 65px
+    @media only screen and (min-width: 1551px)
+        height: 100px
 .TopPattern
     top: -1px
     -webkit-mask: url(../images/TopPattern.svg) no-repeat 50% 50%

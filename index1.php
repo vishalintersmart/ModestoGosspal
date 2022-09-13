@@ -460,7 +460,7 @@
                 </div>
             </div>
             <div class="EventsSlide owl-carousel">
-                <div class="EventBox">
+                <a href="#!" class="EventBox">
                     <div class="ImgBox">
                         <img src="assets/images/Story1.jpg" alt="">
                     </div>
@@ -474,8 +474,8 @@
                             There are many variations of passages of Lorem Ipsum available, but
                         </div>
                     </div>
-                </div>
-                <div class="EventBox">
+                </a>
+                <a href="#!" class="EventBox">
                     <div class="ImgBox">
                         <img src="assets/images/Story1.jpg" alt="">
                     </div>
@@ -489,8 +489,8 @@
                             There are many variations of passages of Lorem Ipsum available, but
                         </div>
                     </div>
-                </div>
-                <div class="EventBox">
+                </a>
+                <a href="#!" class="EventBox">
                     <div class="ImgBox">
                         <img src="assets/images/Story1.jpg" alt="">
                     </div>
@@ -504,7 +504,7 @@
                             There are many variations of passages of Lorem Ipsum available, but
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
@@ -805,9 +805,51 @@
                     more that the Mission has to offer.
                 </div>
             </div>
-            <div class="NewsletterSlide">
+            <div class="NewsletterSlide owl-carousel">
                 <a href="#!" class="NewsletterBox">
-                    <div class="imgBox">
+                    <div class="ImgBox">
+                        <img src="assets/images/Newsletter1.jpg" alt="Newsletter">
+                    </div>
+                    <div class="BoxInfo">
+                        <div class="Title">
+                            There are many variations of
+                            passages of Lorem Ipsum available,
+                        </div>
+                        <div class="Date">
+                            Post Date. <span>August 15, 2022</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#!" class="NewsletterBox">
+                    <div class="ImgBox">
+                        <img src="assets/images/Newsletter1.jpg" alt="Newsletter">
+                    </div>
+                    <div class="BoxInfo">
+                        <div class="Title">
+                            There are many variations of
+                            passages of Lorem Ipsum available,
+                        </div>
+                        <div class="Date">
+                            Post Date. <span>August 15, 2022</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#!" class="NewsletterBox">
+                    <div class="ImgBox">
+                        <img src="assets/images/Newsletter1.jpg" alt="Newsletter">
+                    </div>
+                    <div class="BoxInfo">
+                        <div class="Title">
+                            There are many variations of
+                            passages of Lorem Ipsum available,
+                        </div>
+                        <div class="Date">
+                            Post Date. <span>August 15, 2022</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#!" class="NewsletterBox">
+                    <div class="ImgBox">
                         <img src="assets/images/Newsletter1.jpg" alt="Newsletter">
                     </div>
                     <div class="BoxInfo">
@@ -822,36 +864,27 @@
                 </a>
             </div>
             <div class="FormSec">
+                <div class="FormTitle">Newsletter - Sign up for updates and events</div>
                 <form action="" method="post">
-                    <div class="FormTitle">Newsletter - Sign up for updates and events</div>
                     <div class="form-group">
-                        <label for="">
-                            <svg id="MailIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525.6 397">
-                                <style type="text/css">
-                                .st0 {
-                                    stroke: #000000;
-                                    stroke-width: 8;
-                                    stroke-miterlimit: 10;
-                                }
-                                </style>
-                                <path class="st0" d="M62.8,393h400c32.4,0,58.7-26.3,58.8-58.8V62.8c0-32.4-26.3-58.7-58.8-58.8h-400C30.4,4,4.1,30.3,4,62.8v271.4
+                        <svg id="MailIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525.6 397">
+                            <path class="st0" d="M62.8,393h400c32.4,0,58.7-26.3,58.8-58.8V62.8c0-32.4-26.3-58.7-58.8-58.8h-400C30.4,4,4.1,30.3,4,62.8v271.4
                                                         C4,366.7,30.3,392.9,62.8,393z M62.8,375.5c-9,0-17.8-3-25-8.4l119.6-122.4c2.2-2.2,3.1-5.5,2.2-8.5c-0.8-3-3.2-5.4-6.3-6.1
                                                         c-3.1-0.8-6.3,0.1-8.5,2.4L26.4,353.7c-3.2-6-4.9-12.6-4.9-19.4V82.1l203.4,172.2c21.9,18.6,54.1,18.6,76,0L504,81.9v252.3
                                                         c0,6.8-1.7,13.5-4.9,19.5L379.9,232.4c-3.4-3.4-8.9-3.4-12.3-0.1c-3.4,3.4-3.5,8.9-0.1,12.3L487.8,367c-7.2,5.5-15.9,8.4-24.9,8.4
                                                         H62.8V375.5z M62.8,21.5h400c21.3,0,39.1,16.3,41.1,37.6L289.5,240.9c-15.4,13.1-38,13.1-53.3,0L21.7,59.3
                                                         C23.5,38,41.3,21.6,62.8,21.5z" />
-                            </svg>
-
-                        </label>
+                        </svg>
                         <input type="email" name="Subscribe" id="Subscribe" required class="form-control"
                             placeholder="Email Address">
+                        <button class="Submit" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.5 13.5">
+                                <path fill-rule="evenodd" stroke="rgb(34, 41, 35)" stroke-width="1px"
+                                    stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+                                    d="M1.734,1.690 L6.19,6.726 L1.734,11.763 " />
+                            </svg>
+                        </button>
                     </div>
-                    <button class="Submit" type="submit">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.5 13.5">
-                            <path fill-rule="evenodd" stroke="rgb(34, 41, 35)" stroke-width="1px" stroke-linecap="butt"
-                                stroke-linejoin="miter" fill="none" d="M1.734,1.690 L6.19,6.726 L1.734,11.763 " />
-                        </svg>
-                    </button>
                 </form>
             </div>
         </div>
@@ -1084,6 +1117,36 @@
                 items: 6,
                 margin: 50,
                 loop: $('.PartnersSlide li').lenght > 6 ? true : false,
+                rewind: true,
+            },
+        }
+    });
+
+    // NEWSLETTER SLIDE
+    $('.NewsletterSlide').owlCarousel({
+        loop: true,
+        autoplay: true,
+        smartSpeed: 500,
+        autoplayTimeout: 3500,
+        autoplayHoverPause: true,
+        responsiveClass: true,
+        nav: false,
+        dots: false,
+        items: 2,
+        margin: 5,
+        responsive: {
+            576: {
+                items: 2.5,
+                margin: 10,
+            },
+            768: {
+                items: 3,
+                margin: 15,
+            },
+            1200: {
+                items: 3,
+                margin: 50,
+                loop: $('.NewsletterSlide NewsletterBox').lenght > 3 ? true : false,
                 rewind: true,
             },
         }
